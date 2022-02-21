@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\m\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\m\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_WebStream.-645554773.00" t="ExcludeRecursive" />
+    <e p="C:\Users\m\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\m\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\m\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\m\Documents\GitHub\webstream\webstream" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="webstream" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ffmpeg" t="Include">
+          <e p="x86_64" t="Include">
+            <e p="avcodec-58.dll" t="Include" />
+            <e p="avcodec-59.dll" t="Include" />
+            <e p="avdevice-58.dll" t="Include" />
+            <e p="avdevice-59.dll" t="Include" />
+            <e p="avfilter-7.dll" t="Include" />
+            <e p="avfilter-8.dll" t="Include" />
+            <e p="avformat-58.dll" t="Include" />
+            <e p="avformat-59.dll" t="Include" />
+            <e p="avutil-56.dll" t="Include" />
+            <e p="avutil-57.dll" t="Include" />
+            <e p="ffmpeg.exe" t="Include" />
+            <e p="postproc-55.dll" t="Include" />
+            <e p="postproc-56.dll" t="Include" />
+            <e p="swresample-3.dll" t="Include" />
+            <e p="swresample-4.dll" t="Include" />
+            <e p="swscale-5.dll" t="Include" />
+            <e p="swscale-6.dll" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="WebStream.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="WebStream.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebStream.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

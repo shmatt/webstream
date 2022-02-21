@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FFMediaToolkit" Version="4.1.2" />
+      <PackageReference Include="NReco.VideoConverter.LT" Version="1.1.4" />
+      <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+      <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="99.0.4844.1700-beta" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="2.0.0" />
+      <PackageReference Include="WebDriverManager" Version="2.12.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="ffmpeg\x86_64\avcodec-59.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avdevice-59.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avfilter-8.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avformat-59.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avutil-57.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\postproc-56.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\swresample-4.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\swscale-6.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avutil-56.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avcodec-58.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avdevice-58.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avfilter-7.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\avformat-58.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\postproc-55.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\swresample-3.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\swscale-5.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="ffmpeg\x86_64\ffmpeg.exe">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
